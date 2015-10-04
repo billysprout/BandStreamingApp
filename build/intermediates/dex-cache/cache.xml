@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Danielle/AndroidStudioProjects/BandStreamingApp/app/libs/microsoft-band-1.3.10622.3.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="66970fb037e530fb6db86ec0ce1eba341e837cb7">
+        <dex dex="/Users/Danielle/AndroidStudioProjects/BandStreamingApp/app/build/intermediates/pre-dexed/debug/microsoft-band-1.3.10622.3-6bd686592ba7a984694f859d5e7751156ff5b64a.jar" />
+    </item>
+
+</items>
