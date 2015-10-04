@@ -199,7 +199,7 @@ public class BandStreamingAppActivity extends Activity {
 		public void onBandHeartRateChanged(final BandHeartRateEvent event) {
 			if (event != null) {
 				hrate = event.getHeartRate();
-				if (hrate > 130 || hrate < 55) {
+				if (hrate > 130 || (hrate < 55 &&!isAsleep)) {
 					Intent callIntent = new Intent(Intent.ACTION_CALL);
 					callIntent.setData(Uri.parse("tel:"+phone));
 					startActivity(callIntent);
